@@ -1,0 +1,473 @@
+@font-face {
+
+  font-family: "LithosPro";
+  src: url("../fonts/Fonts/LithosPro-Regular.otf") format("otf");
+
+}
+@font-face {
+
+  font-family: "OpenSans";
+  src: url("../fonts/Fonts/OpenSans-Light.woff2") format("woff2");
+
+}
+@font-face {
+
+  font-family: "RF Krabuler Regular";
+  src: url("../fonts/Fonts/RF Krabuler Regular.woff2") format("woff2");
+
+}
+@font-face {
+
+  font-family: "youngfrankexpandital";
+  src: url("../fonts/Fonts/youngfrankexpandital.woff2") format("woff2");
+
+}
+
+:root{
+  --orangeH: #CC3A00;
+  --jauneH: #E7B949;
+}
+
+body{
+  color: white;
+  background-color: black;
+  font-family: "RF Krabuler Regular",sans-serif;
+  text-align: left;
+}
+
+h1, h2{
+  font-family: "youngfrankexpandital";
+  text-transform: uppercase;
+}
+body{
+  font-size: 16px;
+}
+header,main,footer{
+  font-size: 1.25rem;
+}
+h1{
+  font-size: 1.875rem;
+}
+
+h2,small{
+  font-size: 1.375rem;
+}
+
+/* Iphone 6/7/8/X/XS */
+
+/*Header*/
+.hallow{
+  background-image: url("../img/VISUEL-Halloween.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+  width: 100%;
+  height: 400px;
+
+  position: relative;
+  z-index: -2;
+}
+
+.ParentBois{
+  width: 100%;
+  height: 50px;
+}
+
+.Bois{
+  background-image: url("../img/Bois.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: -2.5%;
+
+  height: 100vw;
+  width: auto;
+
+  transform: rotate(90deg);
+
+  position: relative;
+  z-index: -1;
+
+}
+.Disney{
+  position: absolute;
+  font-family: "LithosPro",sans-serif;
+  text-shadow: -0.07rem 0rem black;
+  color: white;
+  font-size: 0.5625rem;
+  transform: rotate(270deg);
+  margin-top: -12.5%;
+}
+header section, main{
+  margin-left:3%;
+  margin-right:3%;
+}
+header section{
+  padding-left: 6%;
+  padding-right: 6%;
+}
+header section h1{
+  color: var(--jauneH );
+  text-align: center;
+  margin-top: 3vh;
+}
+.h1fond img{
+  position: absolute;
+}
+#fond1{
+  margin-top: -4vh;
+  margin-left: -8vw;
+}
+#fond2{
+  margin-top: -6vh;
+  margin-left: 55vw;
+}
+header section h2{
+  color: var(--orangeH);
+  text-align: center;
+}
+header section small{
+  color: var(--orangeH)
+}
+header section span{
+  color: var(--jauneH);
+}
+.boutton{
+  position: relative;
+  transform: translate(5%);
+  width: 70vw;
+  height: 20vh;
+  background-image: url('../img/Fichier 2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 3.5vh;
+}
+header section div a, form div a{
+  position: relative;
+  font-size: 2.1875rem;
+  transform: translate(20%);
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 24vw;
+  color: black;
+}
+
+
+/* Lot a gagner */
+ul{
+  list-style: url("../imag/1x/1x/Fichier 4.png");
+  font-family: "youngfrankexpandital";
+  color: var(--orangeH);
+  font-size: 1.375rem;
+  margin-top: 8vh;
+  line-height: 1.75rem;
+}
+#last{
+  font-size: 1.875rem;
+}
+ul ul,ul li:nth-child(4){
+  list-style: none;
+  font-family: "RF Krabuler Regular",sans-serif;
+  color: white;
+  margin-top: 0vh;
+}
+ul ul li::before{
+  content: "\2022";
+  color: var(--orangeH);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ul p{
+  font-family: "RF Krabuler Regular",sans-serif;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.liFirst{
+  margin-bottom: 5vh;
+}
+
+
+/*Formulaire*/
+main h1{
+  color: var(--jauneH);
+  text-align: center;
+}
+.FormT{
+  margin-top: 10vh;
+  padding-top: 5vh;
+  height: 20vh;
+  background-image: url("../img/FormulaireF2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#indiq{
+  font-size: 0.75rem;
+  margin-top: -2%;
+}
+
+input[type="number"],input[type="text"],input[type="email"]{
+  width: 100%;
+}
+input[name="test"]{
+  margin-bottom: 0;
+}
+form input{
+  background-color: rgba(204,58,0,0.4);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: rgba(204,58,0);
+  margin-bottom: 2%;
+  color: var(--jauneH);
+}
+form label{
+  text-transform: uppercase;
+  padding-left: 2%;
+}
+#check,#indiq{
+  font-family: "OpenSans",sans-serif;
+}
+#check{
+  font-size: 0.75rem;
+  margin-left: 5%;
+}
+#check a{
+  color: var(--jauneH);
+}
+input[type="checkbox"]{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: -1%;
+  width: 15px;
+  height: 15px;
+}
+.modif{
+  transform: translate(12.5%);
+}
+
+
+footer{
+  position: relative;
+  margin-top: -5vh;
+  font-size: 0.5625rem;
+
+}
+footer p{
+  text-align: right;
+  padding-right: 11vw;
+}
+footer a{
+  color: var(--orangeH);
+}
+footer a:hover{
+  text-decoration: none;
+  color: var(--jauneH);
+}
+footer div{
+  position: relative;
+}
+footer img{
+  position: absolute;
+  margin-left: 90vw;
+  margin-top: -6vh;
+}
+
+@media screen and (min-width:25rem){
+
+      header section, main{
+        margin-left:5%;
+        margin-right:5%;
+      }
+      header section{
+        padding-left: 6%;
+        padding-right: 6%;
+      }
+      .boutton{
+        padding-top: 4.5vh;
+      }
+      header section div a, form div a{
+        margin-left: 25vw;
+      }
+}
+@media screen and (min-width:64rem){
+      body{
+          background-color: black;
+      }
+      h1{
+        font-size: 2.5rem;
+      }
+
+      h2,small{
+        font-size: 1.875rem;
+      }
+      .Disney{
+        position: absolute;
+        text-shadow: -0.15rem 0rem black;
+        font-size: 0.75rem;
+        margin-top: -5%;
+      }
+      header section,footer,.ParentBois{
+        margin-left: 60%;
+      }
+      header section, main{
+        margin-right:0;
+      }
+      main section:first-child{
+        margin-left: 63%;
+        margin-right: 5%;
+      }
+      main section:nth-child(2){
+        margin-left: 61%;
+        margin-right: 2.5%;
+      }
+      header section{
+        margin-top: 5%;
+        padding-right: 1.5%;
+        padding-left: 3%;
+      }
+      header section h2{
+        margin-bottom: 5%;
+      }
+      .h1fond{
+        margin-bottom: 5%;
+      }
+      #lastp{
+        margin-top: 7.5%;
+      }
+      .hallow{
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+        background-position: -17.5vw;
+        width: 100%;
+        height: 395vh; /*305vh*/
+      }
+      .ParentBois{
+        width: 22.5%;
+        height: 50px;
+      }
+      .Bois{
+        background-repeat: repeat-y;
+        margin-top: -395vh;
+        width: 100%;
+        height: 395vh;
+        transform: rotate(0deg);
+      }
+
+      #fond1{
+        margin-top: -4vh;
+        margin-left: 2vw;
+      }
+      #fond2{
+        margin-top: -6vh;
+        margin-left: 22.5vw;
+      }
+      .boutton{
+        width: 20vw;
+        height: 15vh;
+        margin-top: 12.5%;
+        margin-bottom: 2%;
+        margin-left: 20%;
+        padding-top: 3vh;
+      }
+      header section div a, form div a{
+        margin-left: 5.5vw;
+        margin-bottom: 2%;
+        color: black;
+      }
+      header section div a:hover, form div a:hover{
+        text-decoration: none;
+        color: var(--orangeH);
+      }
+      ul{
+        font-size: 1.875rem;
+      }
+      ul ul,ul li:nth-child(4){
+        font-size: 1.25rem;
+      }
+
+
+      .FormT{
+        margin-top: 0vh;
+        padding-top: 7vh;
+        height: 25vh;
+      }
+      input[name="day"],input[name="month"],input[name="year"]{
+        width: 32.5%;
+      }
+      #check{
+        font-size: 0.75rem;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        margin-right: 25%;
+      }
+      input[type="checkbox"]{
+        margin-left: 0%;
+
+      }
+      .modif{
+        margin-top: -5%;
+        margin-left: 10%;
+      }
+      footer p{
+        padding-right: 4vw;
+      }
+      footer img{
+        position: absolute;
+        margin-left: 90%;
+        margin-top: -6vh;
+      }
+      a:hover{
+        border-radius: 50%;
+      }
+}
+
+@media screen and (min-width:100rem){
+  /*Header*/
+  header section{
+    margin-top: 7.5%;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+  }
+  .hallow{
+    height: 315vh; /*305vh*/
+  }
+  .Bois{
+    margin-top: -315vh;
+    height: 315vh;
+  }
+  .boutton {
+    width: 20vw;
+    height: 15vh;
+    margin-top: 12.5%;
+    margin-bottom: 2%;
+    margin-left: 7.5%;
+    padding-top: 4.5vh;
+  }
+  header section div a, form div a{
+    margin-left: 6.5vw;
+    margin-bottom: 2%;
+    color: black;
+  }
+  #fond1{
+    margin-top: -4vh;
+    margin-left: 0;
+  }
+  #fond2{
+    margin-top: -6vh;
+    margin-left: 16vw;
+  }
+  /*Formulaire*/
+  .FormT{
+    margin-top: 0vh;
+    padding-top: 10vh;
+    height: 25vh;
+  }
+  .modif{
+    margin-top: -2.5%;
+    margin-left: 15%;
+  }
+}
